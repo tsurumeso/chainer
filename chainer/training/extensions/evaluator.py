@@ -87,7 +87,6 @@ class Evaluator(extension.Extension):
         self.eval_func = eval_func
         self.name = None
 
-
     def get_iterator(self, name):
         """Returns the iterator of the given name."""
         return self._iterators[name]
